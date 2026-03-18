@@ -1,8 +1,8 @@
 # LlamaIndex 深度实战：用《长安的荔枝》学会构建智能问答系统
 
-> - **发布日期：** 2025-12-04  
-> - **原始链接：** [LlamaIndex 深度实战：用《长安的荔枝》学会构建智能问答系统](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247556092&idx=1&sn=f1b4672bf5520d929f5370b413099830&poc_token=HDbluGmjBHkwDriDygl8lmyK4aBZTbol3orkz-vU)
-> - **标签：** `RAG`
+> - **Published:** 2025-12-04  
+> - **Source:** [LlamaIndex 深度实战：用《长安的荔枝》学会构建智能问答系统](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247556092&idx=1&sn=f1b4672bf5520d929f5370b413099830&poc_token=HDbluGmjBHkwDriDygl8lmyK4aBZTbol3orkz-vU)
+> - **Tags:** `RAG`
 
 ## 第一部分：原理篇 - AI 如何像人一样"读书"
 

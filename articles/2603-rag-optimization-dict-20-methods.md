@@ -1,8 +1,8 @@
 # RAG优化字典：20种RAG优化方法全解析
 
-> - **发布日期：** 2026-03-05
-> - **原始链接：** [RAG优化字典：20种RAG优化方法全解析](https://mp.weixin.qq.com/s?__biz=MzI2NDU4OTExOQ==&mid=2247694687&idx=1&sn=933681fb58bd38e6af584388def1516a&poc_token=HFQbuWmjQMqMBEjFU-klfDfWYEwI7j_jR842DSnv)
-> - **标签：** `RAG`
+> - **Published:** 2026-03-05
+> - **Source:** [RAG优化字典：20种RAG优化方法全解析](https://mp.weixin.qq.com/s?__biz=MzI2NDU4OTExOQ==&mid=2247694687&idx=1&sn=933681fb58bd38e6af584388def1516a&poc_token=HFQbuWmjQMqMBEjFU-klfDfWYEwI7j_jR842DSnv)
+> - **Tags:** `RAG`
 
 本文系统性地梳理了 `RAG`（`Retrieval-Augmented Generation` `检索增强生成`）系统从基础到高级的 20 种优化方法，涵盖分块策略、检索增强、查询优化、生成质量控制等多个维度。每种方法均附带核心代码实现（含简要注释），便于读者按需选型与落地实践。
 
