@@ -6,9 +6,7 @@
 
 原文： [Harness engineering: leveraging Codex in an agent-first world](https://openai.com/index/harness-engineering/)
 
-作者：
-
-Ryan Lopopolo
+作者：Ryan Lopopolo
 
 过去五个月，我们团队开展了一项实验：构建并发布一款软件产品的内部 Beta 版，其中 **0 行代码由人工编写** 。
 
