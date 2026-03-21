@@ -1,7 +1,7 @@
-# The 8 Levels of Agentic Engineering — Bassim Eledath
+# The 8 Levels of Agentic Engineering
 
 > - **Published:** 2026-03-10
-> - **Source:** [The 8 Levels of Agentic Engineering — Bassim Eledath](https://www.bassimeledath.com/blog/levels-of-agentic-engineering)
+> - **Source:** [The 8 Levels of Agentic Engineering](https://www.bassimeledath.com/blog/levels-of-agentic-engineering)
 > - **Tags:** `Agentic Engineering`
 
 AI's coding ability is outpacing our ability to wield it effectively. That's why all the SWE-bench score maxxing isn't syncing with the productivity metrics engineering leadership actually cares about. When Anthropic's team ships a product like Cowork in 10 days and another team can't move past a broken POC using the same models, the difference is that one team has closed the gap between capability and practice and the other hasn't.

@@ -2,25 +2,33 @@
 本项目旨在打造一个高信噪比的 AI 技术知识库。通过收集、整理并结构化归档 AI 前沿方向的优秀文章，本项目既作为我个人的 AI 学习导航，同时也作为一个持续迭代的高质量语料库，用于支持未来的个性化知识库构建。
 
 ## 目录
+### Infrastructure
+- [Attention Is All You Need](./articles/2308-attention-Is-all-you-need.md)
+
+### Caching
+- [Lessons from Building Claude Code: Prompt Caching Is Everything](./articles/2602-claude-code-prompt-caching.md)
+- [KV Caching in LLMs, Clearly Explained](./articles/2603-kv-caching-llms-explained.md)
 
 ### MCP: Model Context Protocol（模型上下文协议）
 
 ### Skill（技能）
 - [兄弟！你真的懂 Skill 吗？](./articles/2603-do-you-truly-get-skill.md)
-- [构建 Claude Code 的经验：我们如何使用 Skills](./articles/2603-lessons-building-claude-code-skills_zh.md)
+- [Lessons from Building Claude Code: How We Use Skills](./articles/2603-lessons-building-claude-code-skills.md) | [构建 Claude Code 的经验：我们如何使用 Skills](./articles/2603-lessons-building-claude-code-skills_zh.md)
+- [5 Agent Skill design patterns every ADK developer should know](./articles/2603-agent-skill-design-patterns.md)
 
 ### Context Engineering（上下文工程）
-- [AI 智能体的上下文工程：构建 Manus 的经验教训](./articles/2507-ai-agents-context-engineering-manus-lessons_zh.md)
+- [Context Engineering for AI Agents: Lessons from Building Manus](./articles/2507-ai-agents-context-engineering-manus-lessons.md) | [AI 智能体的上下文工程：构建 Manus 的经验教训](./articles/2507-ai-agents-context-engineering-manus-lessons_zh.md)
 - [Context Engineering](./articles/2507-context-engineering.md)
 
 ### Memory（记忆机制）
 
 ### Agentic Engineering（代理工程）
-- [智能体工程的 8 个等级](./articles/2603-8-levels-agentic-engineering_zh.md)
+- [The 8 Levels of Agentic Engineering](./articles/2603-8-levels-agentic-engineering.md) | [智能体工程的 8 个等级](./articles/2603-8-levels-agentic-engineering_zh.md)
 - [游戏数据分析Agent的全栈架构演进](./articles/2603-game-data-agent-architecture-evolution.md)
+- [你不知道的 Agent：原理、架构与工程实践](./articles/2603-agent-engineering-practices.md)
 
 ### Harness Engineering
-- [驾驭工程：在「智能体优先」的世界里借力 Codex](./articles/2602-harness-engineering-codex_zh.md)
+- [Harness engineering: leveraging Codex in an agent-first world](./articles/2602-harness-engineering-codex.md) | [驾驭工程：在「智能体优先」的世界里借力 Codex](./articles/2602-harness-engineering-codex_zh.md)
 - [The Anatomy of an Agent Harness](./articles/2603-agent-harness-anatomy.md)
 
 ### RAG: Retrieval-Augmented Generation (检索增强生成)
