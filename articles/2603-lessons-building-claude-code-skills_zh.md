@@ -4,8 +4,6 @@
 > - **Source:** [构建 Claude Code 的经验：我们如何使用 Skills](https://baoyu.io/translations/2026-03-17/claude-code-skills-lessons)
 > - **Tags:** `Skill`
 
-![构建 Claude Code 的经验：我们如何使用 Skills](https://s.baoyu.io/imgs/2026-03-17/trq212-2033949937936085378/img-001-HDl2jn9a0AAZkyz.jpg)
-
 作者：Thariq Shihipar  
 原文： [Lessons from Building Claude Code: How We Use Skills](https://x.com/trq212/status/2033949937936085378)
 

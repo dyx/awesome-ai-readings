@@ -3,6 +3,7 @@
 > - **Published:** 2025-07-18
 > - **Source:** [Context Engineering for AI Agents: Lessons from Building Manus](https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus)
 > - **Tags:** `Context Engineering`
+> - **Translation:** [AI 智能体的上下文工程：构建 Manus 的经验教训](./2507-ai-agents-context-engineering-manus-lessons_zh.md)
 
 *2025/7/18 --Yichao 'Peak' Ji*
 

@@ -3,6 +3,7 @@
 > - **Published:** 2026-02-11
 > - **Source:** [Harness engineering: leveraging Codex in an agent-first world](https://openai.com/index/harness-engineering/)
 > - **Tags:** `Harness Engineering`
+> - **Translation:** [驾驭工程：在「智能体优先」的世界里借力 Codex](./2602-harness-engineering-codex_zh.md)
 
 Over the past five months, our team has been running an experiment: building and shipping an internal beta of a software product with **0 lines of manually-written code**.
 

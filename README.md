@@ -2,8 +2,15 @@
 本项目旨在打造一个高信噪比的 AI 技术知识库。通过收集、整理并结构化归档 AI 前沿方向的优秀文章，本项目既作为我个人的 AI 学习导航，同时也作为一个持续迭代的高质量语料库，用于支持未来的个性化知识库构建。
 
 ## 目录
-### Infrastructure
-- [Attention Is All You Need](./articles/2308-attention-Is-all-you-need.md)
+### Foundation
+- [Attention Is All You Need](./articles/foundation/1706-attention-Is-all-you-need.md) ｜ [PDF](./media/1706-attention-Is-all-you-need/1706-attention-Is-all-you-need.pdf)
+- [Scaling Laws for Neural Language Models](./articles/foundation/2001-scaling-laws-language-models.md) ｜ [PDF](./media/2001-scaling-laws-language-models/2001-scaling-laws-language-models.pdf)
+- [Language Models are Few-Shot Learners](./articles/foundation/2005-few-shot-language-models.md) ｜ [PDF](./media/2005-few-shot-language-models/)
+- [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](./articles/foundation/2201-chain-of-thought-reasoning-llms.md) ｜ [PDF](./media/2201-chain-of-thought-reasoning-llms/)
+- [Training language models to follow instructions with human feedback](./articles/foundation/2203-rlhf-model-training.md) ｜ [PDF](./media/2203-rlhf-model-training/)
+- [DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model](./articles/foundation/2405-deepseek-v2-moe.md) ｜ [PDF](./media/2405-deepseek-v2-moe/)
+- [DeepSeek-V3 Technical Report](./articles/foundation/2412-deepseek-v3-report.md) ｜ [PDF](./media/2412-deepseek-v3-report/)
+- [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](./articles/foundation/2501-deepseek-r1-reinforcement-learning.md) ｜ [PDF](./media/2501-deepseek-r1-reinforcement-learning/)
 
 ### Caching
 - [Lessons from Building Claude Code: Prompt Caching Is Everything](./articles/2602-claude-code-prompt-caching.md)

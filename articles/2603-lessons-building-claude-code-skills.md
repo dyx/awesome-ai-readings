@@ -3,6 +3,7 @@
 > - **Published:** 2026-03-17
 > - **Source:** [Lessons from Building Claude Code: How We Use Skills](https://x.com/trq212/status/2033949937936085378)
 > - **Tags:** `Skill`
+> - **Translation:** [构建 Claude Code 的经验：我们如何使用 Skills](./2603-lessons-building-claude-code-skills_zh.md)
 
 Skills have become one of the most used extension points in Claude Code. They’re flexible, easy to make, and simple to distribute.
 
