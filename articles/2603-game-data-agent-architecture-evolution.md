@@ -31,7 +31,7 @@
 
 **局限性，无法处理追问和复杂错误恢复。**
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_gif/tY0ozQev6SS8Vh6nwKqRAAGn7gWFibDrHz5bDt2UicT8C2wVwLHgVc1iaLTITS5pvj5FSTGmjnbLLbAbdYexmO1YBjGo2T2dtLLX5MxwicgbcBw/640?wx_fmt=gif&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=0)
+![图片](../media/2603-game-data-agent-architecture-evolution/g01.gif)
 
 初步实现的效果如视频所示（备注：视频演示为测试数据）
 
@@ -96,13 +96,13 @@
 
 *此场景已经在v3架构上重写并运用于线上重点游戏转化率和指标监控*
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/tY0ozQev6ST4nTRO5LPuFn4PolXDTZck5oR524BlA2OqWkYBIef1QBMYvG8p8I4hP2bHImfoCvPSnT2g3VToYTcnjzgRYqFibBicV4SlQCX9E/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=2) ![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/tY0ozQev6SQld2IfjoYVkv6nkvLl8auobby1ScVaNY2dsAFesDJPR4zEKEAsznb6IUticoOiabhqx9qR4avdcS0Et9nXy1gbg3yianBMFwia0HQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=3)
+![图片](../media/2603-game-data-agent-architecture-evolution/i01.png) ![图片](../media/2603-game-data-agent-architecture-evolution/i02.png)
 
 **v2.0 (Dify Workflow)：低代码的瓶颈，**
 
 **业务逻辑定制化困难。**
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/tY0ozQev6SSso4MgXkXicRQpibgksCqHgcUbb7jQM1fnedJrRUCaRBiaVQBZIFHIfmtSXAY5MIUoxZVxxLtcKGJdBqozta3KxVCP3mziavtIhmU/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=4)
+![图片](../media/2603-game-data-agent-architecture-evolution/i03.png)
 
 **需求目标：** 实现一个基于LLM的数据部对话机器人，实现简单的知识问答和直接的搜索查询
 
@@ -112,7 +112,7 @@
 
 **主要卡点：** 随着持续迭代，工程项目复杂度已经难以维护（均在海量硬编码，复杂逻辑支持麻烦），调试困难（缺乏详细日志，同时Dify黑盒了不少逻辑），且开发自由度高度受限（部分上下文框架自采集，难以定制修改），基本已达项目诉求的瓶颈
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/tY0ozQev6SR6n87s0erhQ67DQhBlvSCvXiaTpElptbXk3YzSeBAYKL8y8S8Nd9YBXbQ6sZHegiaTVdT9LVjgHnXrT4ISk1dNf8OG6GDjRLvsg/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=5) ![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/tY0ozQev6STBWtIMW3KkJjlWDNwqM5KRZbZUibS0AUTd0JhLY8bT0u07pdU5BoQdqHddia9YDwQibhuQjNZp4VIibgQLC4OEbwrz1ic17R5k53CA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=6)
+![图片](../media/2603-game-data-agent-architecture-evolution/i04.png) ![图片](../media/2603-game-data-agent-architecture-evolution/i05.png)
 
 **失败总结：**
 
@@ -122,13 +122,13 @@
 
 3. 仍有比较有价值的收获，掌握了Dify的插件开发能力（甚至帮友商优化了官方开源插件）
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/tY0ozQev6SR6ibfGUiaiaRUU34VEzqC9e5q0sX1KV4BVNf2BBoMtxCLQjYstjByb3GHv5WYk6VJhBo8AOwDItx9USgSOT7MbeJb1l3RIjyH2Ps/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=7)
+![图片](../media/2603-game-data-agent-architecture-evolution/i06.png)
 
 ***最新现状：***
 
 *由于方便上手的特性，目前部门其他同事会针对一些简单场景使用Dify开发落地，比如落地上线一些简单的Agent归因分析产品*
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/tY0ozQev6SRmYp5EsLaWibsgkSZf4cAEtV0Rnias9FicaDOUs8icwHElM3JAvH1uSX9sLvaZuSicQ9JDuS2lIH6u1zA61G8DUxvFaGharvL0J65Q/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=8)
+![图片](../media/2603-game-data-agent-architecture-evolution/i07.png)
 
 **v3.0 (LangGraph)：直面底层设计，**
 
@@ -160,11 +160,11 @@
 
 3. 应用层面：知名科技大厂使用LangGraph开发生产级应用，比如Uber、LinkedIn、Elastic、Google等
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/tY0ozQev6SRdJkicLFibmibalsuycIL7PCKCwCq7BULo2UGmk9FuLet8Eca2iamT3Gl3VRQpbeW69h4eRRy3U14a6ak295mI8OS0cI0f861Wsag/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=10)
+![图片](../media/2603-game-data-agent-architecture-evolution/i08.png)
 
 最终执行实现的效果：
 
-![图片](https://mmbiz.qpic.cn/mmbiz_gif/tY0ozQev6STCONYYwLI4zEH3AkWHbWsPBZhZiatzZXiaA02EpicMl0ss8dNQ6zK2oFEGxbdFTZNdIAby4rxXufFl41Rrya53x8M49nLlbfzOAM/640?wx_fmt=gif&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=11)
+![图片](../media/2603-game-data-agent-architecture-evolution/g02.gif)
 
 **三、核心工程实践**
 
@@ -188,7 +188,7 @@
 
 先来看下Multi Agent的常见架构：
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/tY0ozQev6SRouvj1diaJXcd7QoeqOauxwBX2NO4R8wlHzsaG4hugzaFibof7PXxibGVJRl5P8nF9RtH73pLxJyDv7DpeYFOcqXN2ic06jpaDrLI/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=12)
+![图片](../media/2603-game-data-agent-architecture-evolution/i09.png)
 
 <sup>(图片取自LangGraph官方文档)</sup>
 
@@ -484,7 +484,7 @@ flowchart TD
 
 5. MiddlewareA.after_model
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/tY0ozQev6SRMewTDTuVOVibT5S6S0vI60NaMNic0aJM49Z12YdVZG0PdiaXwSmskfap8Rfvp8QINZuficTkPMlT1VYzz3t3s1oAAFSF8DqKQ0sU/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=17)
+![图片](../media/2603-game-data-agent-architecture-evolution/i10.png)
 
 *<sup>(图片取自网络)</sup>*
 
@@ -726,7 +726,7 @@ Fluent API usage:
 - 支持不同级别日志及关键词着色
 - 支持多种日志结构预览:PlainText/PythonObject/SQL/Markdown（且支持互相嵌套打开）
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/tY0ozQev6SQFTxcECkf63ct2S3awqfwico2zAdlw9sZgFyL0n3AhRRCnh3zYBPtJ06LK64LOqiccFBOhibSfWTCDtTCgibB9pboV4gOXGFFfuRs/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=21)
+![图片](../media/2603-game-data-agent-architecture-evolution/i11.png)
 
 **Time Travel**
 
@@ -802,7 +802,7 @@ fork_config = graph.update_state(
 
 本项目是第一个python调用游戏权限管理系统的服务，为此专门编写了python版sdk实现，以便后续的开发工作。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/tY0ozQev6SScwOUfiawdwdXQURVIslY54JqkFvYyFbIYL6znaXhU7tQ4oibVnB4Nbicw0KSQJKLTvWwCJIichpsRCKibN10of9xlPhmOFIic47neo/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=22)
+![图片](../media/2603-game-data-agent-architecture-evolution/i12.png)
 
 ```python
 # 获取权限管理器单例
@@ -888,7 +888,7 @@ print(sql_result.is_allowed)
 
 结合当前实际的部署情况以及业务使用场景进行了分析：
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/tY0ozQev6SQqspibjLzM5aneqUFyBicfQPp18EEYiclZiaVvqZDuDGYMzMtsmsIeZxw6JIEhYRZ6IPdER4yGzBtPFmtMzL2rdicEF24Wal6J6IM8/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=23) 
+![图片](../media/2603-game-data-agent-architecture-evolution/i13.png)
 
 | 应用/服务 | 支持自带aksk模式 | 使用端 | 可信登录态 |
 |-----------|------------------|--------|------------|
@@ -907,7 +907,7 @@ print(sql_result.is_allowed)
 
 **整体架构设计**
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/tY0ozQev6SQypoBgKMa6HIpJagM7p5vFAEMhhekPSdxJrMqaFGrOapllwRsrSYaxtLretknu5zYJmrouuW2lziaspIEJtibSzKAcPbCPtEvAk/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=25)
+![图片](../media/2603-game-data-agent-architecture-evolution/i14.png)
 
 **图中对应关系：**
 
@@ -976,7 +976,7 @@ Dify和LangGraph Agents的链接是通过自研的通信插件实现的
 
 隔离安全：隔离了原生 api 可能吐出过多metadata的问题，因为Dify最后只会返回消息部分了。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/tY0ozQev6SQ3NR2CfpVa2IMv7AicKNy5C12G66krlVasPQBHyW08mjJEdnZ9k0TDejdHicqrlLvAJnxmnNFC2Vjr3pTHiaGDjhxq1xhwicqjiaeY/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=26)
+![图片](../media/2603-game-data-agent-architecture-evolution/i15.png)
 
 **全功能运维台**
 
@@ -992,7 +992,7 @@ Dify和LangGraph Agents的链接是通过自研的通信插件实现的
 
 **- 无状态安全：** 管理台采用无状态设计，兼容性极佳
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/tY0ozQev6SRgMBJGpZNshwsL6wKZALN7f5TvJkqKhStuKMApn37xrYtVpLgWpL1DjHUpo9uibvYicGOBTRhC9oHfeiaH6CL5jHXgsicYd8esn6Q/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=27)
+![图片](../media/2603-game-data-agent-architecture-evolution/i16.png)
 
 **自研分布式调度系统**
 
@@ -1008,15 +1008,15 @@ Dify和LangGraph Agents的链接是通过自研的通信插件实现的
 
 **- 可靠性：** 支持优先级设定、多种并发策略及企微告警闭环。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/tY0ozQev6SQuVLvbvYw3QV13wJ2bfE2f3Ae3oBHStB553LAN6ffPWxt22aniaiccbL9zSZcx4KKjo2hBJN5qXtEic1AZggtibXsmACxia63kS4qk/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=28)
+![图片](../media/2603-game-data-agent-architecture-evolution/i17.png)
 
 **WebUI设计**
 
 由于产品最终还是需要面向用户，所有针对WebUI做了一些专门产品化的设计
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/tY0ozQev6SQPU64ptAsRjiawe8qBLicN1iaUJbrWkEjC16JHFYAkWQBR4aU9iaq83cHIiaRC3WN6wHBokF6WicamNic6PZY5SKlcqPAwtMfW0DxBDI/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=29)
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/tY0ozQev6SQlT4Zd6ibahCHKSC669DpFJO29YLiadvYBb66JC44aJTFN8B9kKRjw8kGIowI0aFdzvazALicG8tlulfyZdntDdDKHDEN6mCvIxU/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=30)
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/tY0ozQev6SSAHjMay3SA62wibH2jZNmh4QlTALcjqzlo7ibgjrAXIoOrXflU2mibx5n483Cib63YibvTRC5N8QibyiawxEW81wss68C7253M7tgnDM/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=31)
+![图片](../media/2603-game-data-agent-architecture-evolution/i18.png)
+![图片](../media/2603-game-data-agent-architecture-evolution/i19.png)
+![图片](../media/2603-game-data-agent-architecture-evolution/i20.png)
 
 1.**思维链可视化：** 前端深度解析 SSE 流，可以选择折叠/展开 <think> 过程。联动了代码中写的一个便捷函数"emit_thinking"，从而产生实时反馈，缓解用户等待焦虑。
 
