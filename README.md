@@ -50,7 +50,10 @@
 - [LlamaIndex 深度实战：用《长安的荔枝》学会构建智能问答系统](./articles/2512-llamaindex-deep-practice-qa-system.md)
 - [RAG优化字典：20种RAG优化方法全解析](./articles/2603-rag-optimization-dict-20-methods.md)
 
-### Spec Coding（规约编程）
+### SDD: Spec-Driven Development（规范驱动开发）
+- [Superpowers](https://github.com/obra/superpowers)
+- [OpenSpec](https://github.com/Fission-AI/OpenSpec)
+- [Spec Kit](https://github.com/github/spec-kit)
 - [AI编程能力边界探索：基于 Claude Code 的 Spec Coding 项目实战](./articles/2603-claude-code-spec-coding-ai-coding-practice.md)
 
 ### Safety / Security（安全）
