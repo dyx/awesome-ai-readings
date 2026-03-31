@@ -40,6 +40,7 @@
 - [The 8 Levels of Agentic Engineering](./articles/2603-8-levels-agentic-engineering.md) | [智能体工程的 8 个等级](./articles/2603-8-levels-agentic-engineering_zh.md)
 - [游戏数据分析Agent的全栈架构演进](./articles/2603-game-data-agent-architecture-evolution.md)
 - [你不知道的 Agent：原理、架构与工程实践](./articles/2603-agent-engineering-practices.md)
+- [How Claude Code works](https://www.mintlify.com/VineeTagarwaL-code/claude-code/concepts/how-it-works)
 
 ### Harness Engineering
 - [Harness engineering: leveraging Codex in an agent-first world](./articles/2602-harness-engineering-codex.md) | [驾驭工程：在「智能体优先」的世界里借力 Codex](./articles/2602-harness-engineering-codex_zh.md)
