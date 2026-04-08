@@ -30,10 +30,12 @@
 - [Context Engineering for AI Agents: Lessons from Building Manus](./articles/2507-ai-agents-context-engineering-manus-lessons.md) | [AI 智能体的上下文工程：构建 Manus 的经验教训](./articles/2507-ai-agents-context-engineering-manus-lessons_zh.md)
 - [Context Engineering](./articles/2507-context-engineering.md)
 - [Effective context engineering for AI agents](./articles/2509-context-engineering-ai-agents.md)
+- [Context Compression and Caching | Hermes Agent](./articles/2604-hermes-agent-context-engineering.md)
 
 ### Memory（记忆机制）
 - [How Claude remembers your project](./articles/2603-claude-code-memory.md) | [Claude 如何记住你的项目](./articles/2603-claude-code-memory_zh.md)
 - [OpenClaw Memory](./articles/2603-openclaw-memory.md) | [OpenClaw 记忆机制](./articles/2603-openclaw-memory_zh.md)
+- [Persistent Memory | Hermes Agent](./articles/2604-hermes-agent-memory.md)
 
 ### Agentic Engineering（代理工程）
 - [Building Effective AI Agents](./articles/2412-building-effective-agents.md)
